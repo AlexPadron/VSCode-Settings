@@ -1,0 +1,21 @@
+{
+    "python.pythonPath": "/Users/alex/zentreefish/.inenv/docstore/bin/python3.6",
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/.#*": true,
+        "**/.cache": true,
+        "**/.hypothesis": true,
+        "**/.mypy_cache": true,
+        "**/.pytest_cache": true
+    },
+    "editor.fontSize": 18,
+    "terminal.integrated.fontSize": 18,
+    "explorer.confirmDelete": false,
+    "editor.minimap.enabled": false,
+    "editor.minimap.renderCharacters": false,
+    "files.trimTrailingWhitespace": true,
+    "editor.rulers": [
+        100
+    ],
+    "window.zoomLevel": 1,
+}

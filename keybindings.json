@@ -1,0 +1,208 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "ctrl+o",
+        "command": "workbench.action.quickOpen"
+    },
+    {
+        "key": "cmd+p",
+        "command": "-workbench.action.quickOpen"
+    },
+    {
+        "key": "shift+cmd+c",
+        "command": "-workbench.action.terminal.openNativeConsole",
+        "when": "!terminalFocus"
+    },
+    {
+        "key": "ctrl+j",
+        "command": "workbench.action.terminal.focus",
+        "when": "!terminalFocus"
+    },
+    {
+        "key": "ctrl+j",
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+t",
+        "command": "openInTerminal"
+    },
+    {
+        "key": "ctrl+s",
+        "command": "actions.find",
+        "when": "!findWidgetVisible"
+    },
+    {
+        "key": "cmd+f",
+        "command": "-actions.find"
+    },
+    {
+        "key": "cmd+e",
+        "command": "actions.findWithSelection",
+        "when": "!findWidgetVisible"
+    },
+    {
+        "key": "cmd+e",
+        "command": "-actions.findWithSelection"
+    },
+    {
+        "key": "ctrl+s",
+        "command": "closeFindWidget",
+        "when": "editorFocus && findWidgetVisible"
+    },
+    {
+        "key": "escape",
+        "command": "-closeFindWidget",
+        "when": "editorFocus && findWidgetVisible"
+    },
+    {
+        "key": "ctrl+x ctrl+s",
+        "command": "workbench.action.files.save"
+    },
+    {
+        "key": "cmd+s",
+        "command": "-workbench.action.files.save"
+    },
+    {
+        "key": "cmd+z",
+        "command": "-undo",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+c",
+        "command": "emacs.M-w",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+w",
+        "command": "-emacs.M-w",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+x k",
+        "command": "workbench.action.closeWindow"
+    },
+    {
+        "key": "shift+cmd+w",
+        "command": "-workbench.action.closeWindow"
+    },
+    {
+        "key": "cmd+w",
+        "command": "-workbench.action.closeWindow",
+        "when": "!editorIsOpen && !multipleEditorGroups"
+    },
+    {
+        "key": "ctrl+x k",
+        "command": "workbench.action.closeActiveEditor"
+    },
+    {
+        "key": "cmd+w",
+        "command": "-workbench.action.closeActiveEditor"
+    },
+    {
+        "key": "shift+alt+[",
+        "command": "block-travel.jumpUp",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+up",
+        "command": "-block-travel.jumpUp",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+alt+]",
+        "command": "block-travel.jumpDown",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+down",
+        "command": "-block-travel.jumpDown",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+x ctrl+c",
+        "command": "editor.action.blockComment",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+alt+a",
+        "command": "-editor.action.blockComment",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+t",
+        "command": "workbench.action.gotoLine",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+g",
+        "command": "-workbench.action.gotoLine"
+    },
+    {
+        "key": "alt+g g",
+        "command": "-workbench.action.gotoLine"
+    },
+    {
+        "key": "ctrl+backspace",
+        "command": "deleteWordLeft",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "alt+backspace",
+        "command": "-deleteWordLeft",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+r",
+        "command": "workbench.action.files.revert",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+i",
+        "command": "workbench.action.terminal.focusNextPane",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "alt+cmd+down",
+        "command": "-workbench.action.terminal.focusNextPane",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+u",
+        "command": "workbench.action.terminal.focusPreviousPane",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "alt+cmd+up",
+        "command": "-workbench.action.terminal.focusPreviousPane",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+u",
+        "command": "workbench.action.navigateLeft",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+i",
+        "command": "workbench.action.navigateRight",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+x 1",
+        "command": "workbench.action.joinAllGroups"
+    },
+    {
+        "key": "ctrl+x ctrl+x",
+        "command": "cursorUndo",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "cmd+u",
+        "command": "-cursorUndo",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+x u",
+        "command": "undo"
+    }
+]
