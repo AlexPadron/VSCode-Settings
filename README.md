@@ -1,1 +1,1 @@
-# VSCode-Settings
+# Emacs-like VSCode Settings
